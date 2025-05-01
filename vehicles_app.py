@@ -13,3 +13,9 @@ if st.button("Mostrar histograma do preço"):
     st.write("Distribuição de preços dos veículos")
     fig = px.histogram(df, x="price", nbins=50, title="Distribuição dos Preços dos Veículos")
     st.plotly_chart(fig)
+
+# Caixa de seleção para gráfico de dispersão
+if st.checkbox('Mostrar gráfico de dispersão (odômetro vs. preço)'):
+    st.write("Gráfico de dispersão entre odômetro e preço")
+    fig_scatter = px.scatter(df, x='odometer', y='price', title='Odômetro vs. Preço')
+    st.plotly_chart(fig_scatter)
