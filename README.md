@@ -7,3 +7,11 @@ Este é um aplicativo web simples construído com Streamlit para explorar dados 
 - Gráfico de dispersão entre odômetro e preço.
 
 Dataset: `vehicles.csv`
+
+## Acesse o aplicativo
+
+- Aplicativo no Render: https://vehicles-us-sryn.onrender.com/
+
+##  Repositório no GitHub
+
+- Repositório: https://github.com/keth-source/vehicles_us.git
